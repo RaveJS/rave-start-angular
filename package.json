@@ -20,5 +20,11 @@
 	},
 	"bugs": {
 		"url": "https://github.com/RaveJS/rave-start/issues"
+	},
+	"dependencies": {
+		"serv": "0.0.7"
+	},
+	"scripts": {
+		"start": "serv"
 	}
 }
