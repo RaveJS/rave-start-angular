@@ -1,0 +1,28 @@
+{
+	"name": "rave-start",
+	"version": "0.1.0",
+	"description": "RaveJS Starter.",
+	"main": "main.js",
+	"moduleType": [ "node" ],
+	"keywords": [
+		"rave",
+		"rave-starter",
+		"spa"
+	],
+	"authors": [
+		"John Hann (http://unscriptable.com)",
+		"Brian Cavalier (http://hovercraftstudios.com)"
+	],
+	"license": "MIT",
+	"homepage": "https://github.com/RaveJS/rave-start/",
+	"dependencies": {
+		"rave": "~0.1.2"
+	},
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
+}
