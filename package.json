@@ -20,12 +20,5 @@
 	},
 	"bugs": {
 		"url": "https://github.com/RaveJS/rave-start/issues"
-	},
-	"ignore": [
-		"**/.*",
-		"node_modules",
-		"bower_components",
-		"test",
-		"tests"
-	]
+	}
 }
