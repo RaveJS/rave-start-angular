@@ -15,7 +15,7 @@ module.exports = angular
 	])
 	.config([
 		'$routeProvider', function ($routeProvider) {
-			$routeProvider.otherwise(
+			$routeProvider.when(
 				'/',
 				{ templateUrl: 'app/base.html', controller: 'BaseCtrl' }
 			);
