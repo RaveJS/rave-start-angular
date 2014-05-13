@@ -3,10 +3,10 @@
 
 ## Install it
 
-If you don't already have npm and bower installed, install them first:
+If you don't already have node and bower installed, install them first:
 
-[node](http://nodejs.org/) (node installs npm)
-[bower](http://bower.io/)
+- [node](http://nodejs.org/) (node installs npm)
+- [bower](http://bower.io/)
 
 Clone the rave-start repo and install it:
 
@@ -20,14 +20,15 @@ bower install
 
 ## Run it
 
-Start up the built-in web server, then point your favorite web browser at
-http://127.0.0.1:8000/ and open the browser console.  See below if port
-8000 is unavailable on your machine.
+Install, then start the built-in web server.
 
 ```
 npm install
 npm start
 ```
+
+Then point your favorite web browser at http://127.0.0.1:8000/ and open
+the browser console.  See below if port 8000 is unavailable on your machine.
 
 You can, of course, use a different web server.  Due to browser security
 precautions, however, you cannot load projects directly off the file system.
@@ -59,7 +60,7 @@ npm start
 
 ## Using the built-in server with another port
 
-The included server, [serv](https://github.com/scothis/serv) is set to port
+The included web server, [serv](https://github.com/scothis/serv) is set to port
 8000 by default.  You can change it to 1337, for instance, with the following
 steps:
 
