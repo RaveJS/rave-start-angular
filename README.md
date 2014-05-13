@@ -25,6 +25,7 @@ http://127.0.0.1:8000/ and open the browser console.  See below if port
 8000 is unavailable on your machine.
 
 ```
+npm install
 npm start
 ```
 
