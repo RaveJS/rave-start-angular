@@ -2,7 +2,7 @@
 	"name": "rave-start",
 	"version": "0.1.0",
 	"description": "RaveJS Starter.",
-	"main": "main.js",
+	"main": "app/app.js",
 	"moduleType": [ "node" ],
 	"keywords": [
 		"rave",
@@ -16,7 +16,7 @@
 	"license": "MIT",
 	"homepage": "https://github.com/RaveJS/rave-start/",
 	"dependencies": {
-		"rave": "~0.1.2"
+		"rave-angular": "~0.1"
 	},
 	"ignore": [
 		"**/.*",
