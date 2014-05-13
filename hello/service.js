@@ -1,4 +1,4 @@
 var angular = require('angular');
 
-angular.module('myApp.services', [])
+angular.module('hello.service', [])
 	.value('version', '0.1');

@@ -2,7 +2,6 @@
 	"name": "rave-start",
 	"version": "0.1.0",
 	"description": "RaveJS Starter.",
-	"main": "main.js",
 	"keywords": [
 		"rave",
 		"rave-starter",

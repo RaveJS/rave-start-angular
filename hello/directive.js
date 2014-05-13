@@ -1,6 +1,6 @@
 var angular = require('angular');
 
-angular.module('myApp.directives', [])
+angular.module('hello.directive', [])
 	.directive('appVersion', [
 		'version', function (version) {
 			return function (scope, elm, attrs) {

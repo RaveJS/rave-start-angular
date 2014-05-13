@@ -1,26 +1,23 @@
 var angular = require('angular');
 
-require('./filters');
-require('./services');
-require('./directives');
-require('./controllers');
+// import the hello UI component
+require('./hello/main');
 
+// compose the app and the routes
 module.exports = angular
 	.module('myApp', [
 		'ngRoute',
-		'myApp.filters',
-		'myApp.services',
-		'myApp.directives',
-		'myApp.controllers'
+		'hello'
 	])
 	.config([
 		'$routeProvider', function ($routeProvider) {
 			$routeProvider.when(
 				'/',
-				{ templateUrl: 'app/base.html', controller: 'BaseCtrl' }
+				{ templateUrl: 'hello/base.html', controller: 'HelloCtrl' }
 			);
 			$routeProvider.otherwise({ redirectTo: '/' });
 		}
 	]);
 
+// start the application
 angular.bootstrap(document, ['myApp']);
