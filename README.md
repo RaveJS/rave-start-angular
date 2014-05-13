@@ -31,6 +31,7 @@ npm start
 
 You can, of course, use a different web server.  Due to browser security
 precautions, however, you cannot load projects directly off the file system.
+To uninstall serv, type `npm uninstall --save-dev serv`.
 
 
 ## Learn more
