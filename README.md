@@ -11,9 +11,8 @@ If you don't already have node and bower installed, install them first:
 Clone the rave-start repo and install it:
 
 ```
-mkdir myApp
+git clone git@github.com:RaveJS/rave-start.git myApp
 cd myApp
-git clone git@github.com:RaveJS/rave-start.git .
 bower install
 ```
 
@@ -49,9 +48,8 @@ front-end libraries.  To use the npm-only version of this starter, simply
 use the npm-only branch:
 
 ```
-mkdir myApp
+git clone git@github.com:RaveJS/rave-start.git myApp
 cd myApp
-git clone git@github.com:RaveJS/rave-start.git .
 git checkout npm-only
 npm install
 npm start
