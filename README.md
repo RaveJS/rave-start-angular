@@ -8,10 +8,10 @@ If you don't already have node and bower installed, install them first:
 - [node](http://nodejs.org/) (node installs npm)
 - [bower](http://bower.io/)
 
-Clone the rave-start repo and install it:
+Clone the rave-start-angular repo and install it:
 
 ```
-git clone git@github.com:RaveJS/rave-start.git myApp
+git clone git@github.com:RaveJS/rave-start-angular.git myApp
 cd myApp
 bower install
 ```
