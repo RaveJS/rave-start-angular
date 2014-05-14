@@ -39,23 +39,6 @@ To uninstall serv, type `npm uninstall --save-dev serv`.
 Learn about rave at [RaveJS/rave](https://github.com/RaveJS/rave).
 
 
-## Using this starter without bower
-
-It's possible to use this Rave Starter without bower.  Bower has tons of
-front-end components that are not available on npm.  Still, it's possible to
-build an entire web client application with npm, which also has many
-front-end libraries.  To use the npm-only version of this starter, simply
-use the npm-only branch:
-
-```
-git clone git@github.com:RaveJS/rave-start.git myApp
-cd myApp
-git checkout npm-only
-npm install
-npm start
-```
-
-
 ## Using the built-in server with another port
 
 The included web server, [serv](https://github.com/scothis/serv) is set to port
