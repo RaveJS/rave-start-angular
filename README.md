@@ -36,13 +36,13 @@ To uninstall serv, type `npm uninstall --save-dev serv`.
 
 ## Develop it
 
-This Starter doesn't prescribe an architectural or organizational structure
-for you.  It's a clean slate.  Start with main.js.  This is the place where
-you can initialize your composition plans, bind your views, etc.  If you
+This Starter doesn't prescribes a very minimal application structure
+for you.  It's almost a clean slate.  Start with main.js.  This is where
+you can initialize your routes, directives, services, etc.  If you
 prefer to author your application's modules using AMD format, change the
 "moduleType" entry in bower.json to `[ "amd" ]`, rather than `[ "node" ]`.
 
-Install your favorite framework or find some useful
+Install your favorite third-party packages or find some useful
 [Rave Extensions](http://bower.io/search/?q=rave-extension) to install.
 Don't forget to use `--save` when you `bower install --save <extension>`!
 
