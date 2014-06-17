@@ -13,7 +13,7 @@ module.exports = angular
 		'$routeProvider', function ($routeProvider) {
 			$routeProvider.when(
 				'/',
-				{ templateUrl: 'hello/base.html', controller: 'HelloCtrl' }
+				{ templateUrl: 'app/hello/base.html', controller: 'HelloCtrl' }
 			);
 			$routeProvider.otherwise({ redirectTo: '/' });
 		}

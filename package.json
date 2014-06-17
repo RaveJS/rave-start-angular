@@ -1,28 +1,8 @@
 {
-	"name": "rave-start",
-	"version": "0.1.2",
-	"description": "RaveJS Starter.",
-	"keywords": [
-		"rave",
-		"rave-starter",
-		"spa"
-	],
-	"contributors": [
-		"John Hann (http://unscriptable.com)",
-		"Brian Cavalier (http://hovercraftstudios.com)"
-	],
-	"license": "MIT",
-	"homepage": "https://github.com/RaveJS/rave-start",
-	"repository": {
-		"type": "git",
-		"url": "http://github.com/RaveJS/rave-start.git"
-	},
-	"bugs": {
-		"url": "https://github.com/RaveJS/rave-start/issues"
-	},
-	"dependencies": {
-		"rave": "~0.1.2"
-	},
+	"name": "app",
+	"version": "0.0.0",
+	"description": "My awesome app created with RaveJS.",
+	"main": "app/main.js",
 	"devDependencies": {
 		"serv": "0.0.7"
 	},
