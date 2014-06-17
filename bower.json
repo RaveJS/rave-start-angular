@@ -4,9 +4,6 @@
 	"description": "My awesome app created with RaveJS.",
 	"main": "main.js",
 	"moduleType": [ "node" ],
-	"dependencies": {
-		"rave": "~0.1"
-	},
 	"ignore": [
 		"**/.*",
 		"node_modules",
