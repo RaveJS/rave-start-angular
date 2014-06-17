@@ -2,14 +2,16 @@
 	"name": "app",
 	"version": "0.0.0",
 	"description": "My awesome app created with RaveJS.",
-	"main": "app/main.js",
+	"main": "main.js",
+	"moduleType": [ "node" ],
 	"dependencies": {
 		"rave": "~0.1"
 	},
-	"devDependencies": {
-		"serv": "0.0.7"
-	},
-	"scripts": {
-		"start": "serv"
-	}
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	]
 }
