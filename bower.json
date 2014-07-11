@@ -1,11 +1,11 @@
 {
 	"name": "app",
-	"version": "0.0.0",
+	"version": "0.2.0",
 	"description": "My awesome app created with RaveJS.",
 	"main": "app/main.js",
 	"moduleType": [ "node" ],
 	"dependencies": {
-		"rave-angular": "~0.1"
+		"rave-angular": "~0.2"
 	},
 	"ignore": [
 		"**/.*",
